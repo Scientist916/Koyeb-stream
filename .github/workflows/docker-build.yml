@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t your-dockerhub-username/koyeb-stream:latest .
-          docker push your-dockerhub-username/koyeb-stream:latest
+          docker build -t scientist916/koyeb-stream:latest .
+          docker push scientist916/koyeb-stream:latest
